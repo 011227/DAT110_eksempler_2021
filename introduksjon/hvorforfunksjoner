@@ -1,0 +1,30 @@
+FUNKSJONER
+
+hvorfor funksjoner?
+    - gjenbruke av kode
+    - bruk av kode som andre har lagd
+
+hva er en funksjon?
+    - en modul med kode
+    - bør ha en klar definert oppgave
+
+ferdig definert funksjoner
+
+import math
+math.pi
+math.e
+
+konstant som en variabel men du skal ikke endre på verdien
+
+mengdefunksjoner
+
+math.sin(math.pi/4)
+math.radians(45) --> få ut i radinaer
+math.degrees() --> få radianer til grader
+
+pow(2,3) == 2**3
+
+math.log(8, base)
+log uten parameter naturlig log e
+
+fakultet!

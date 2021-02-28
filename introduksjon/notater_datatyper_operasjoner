@@ -1,0 +1,86 @@
+film: 5)
+
+bruke python package sin deler av prosjekt
+
+Datatype
+- int: heltall
+- float: flyttall/desimaltall
+- str: string: tekststreng
+
+type(7) --> spør om datatype av ting
+int = integer (heltall)
+
+type(7.5) --> float
+desimaltall
+
+type("Test") --> streng (tekst)
+
+Strenger:
+- Hver tegn er kodet med et tall
+- ASCII: gammel amerikansk standard (ikke inneholde norske tegn, inneholde bare latinsk tegn)
+- Vanlig i dag: UTF-8
+- Kan velge nederst høyre hjørne
+- Eldre windows systemer bruker Win-1252 i stedet
+
+Operasjoner:
++, -, * på tall gir heltall hvis begge tallene er heltall ellers flyttall
+/: Flyttallssdivisjon, gir alltid float
+//: heltallsdivisjon. Runder alltid ned!
+%: Modulo. Resten etter en heltallsdivisjon
+**: Eks.2**3 opphøye
+
++, * (kan ikke streng mot streng) fungeres på strenger også
+
+print("Tester print setningen")
+
+Funksjoner for å konvertere datatyper.
+- int(x), konvertere til et heltall, kapper desimalen til et flyttall
+- round(x, antall desimal), avrunde et flyttall til heltall
+- float(x), konverterer til et flyttall
+- str(x): konverter til en streng
+
+Variabler film 6
+
+"et_tall=5" leses "Variabelen et_tall settes lik 5"
+Verdien har en datatype, variabelen har ikke en datatype
+
+Lovlige tegn i variabler
+- bokstaver, tillate norske tegn men anbefalt å ikke bruke
+- underscore _
+- første tegn må være bokstav eller underscore
+- tall, bortsett fra første tegn
+- skiller mellom store og små bokstaver
+
+Navnekonvensjon: Kun små bokstaver, skill ord med underscore
+Navnet bør si noe om hva variabelen skal inneholde.
+Selvdokumenterende kode
+
+test5 += 4
+Finnes tilsvarende for -, *, /
+
+video 7: første script
+lage new python file
+et_forste_script.py
+
+video 8:
+
+basic printing print()
+flere ting etter hverandre med komma, dette gir også mellmrom
+
+v9:= import turtle
+turtle.setup(600,600,120,10)
+bredde, høude, xpos, ypos
+
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+
+flytte den ute å tegne
+turtle.penup()
+turtle.pendown()
+
+!!!TOLKE FEILMELDINGER!!!
+  - feil stave variabelnavn/funksjon: NameError
+  - To forskjellige datatyper kombinert: TypeError
+
+  hvordan importere filer.

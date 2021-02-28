@@ -1,0 +1,82 @@
+liste = [1,2,3,4,5]
+
+class = list
+
+for element in liste:
+    print(element)
+
+# første element
+liste[0]
+
+IndexError utenfor liste
+
+liste[-1]
+siste
+liste[-2]
+andre siste
+
+liste.append(6)
+legges til ekstra element i listen
+
+len(liste)
+lengde på listen
+
+liste2 = [0,1]*5
+fem kopier av den forrige
+
++ -> slå sammen liste
+
+list slices få ut en del av en liste
+liste3[2:6]
+fra og med 2 og til ikke med 6
+
+de første tallene
+liste[:6]
+
+alle tall etter
+liste[6:]
+
+bare kolon
+liste[:]
+kopi av liste
+
+liste[1:8:2]
+steglengde siste element
+
+4 in liste : sjekke om noe er i listen
+dermed kan bruke if setninger
+
+liste er objekter
+liste.index(3)
+gir indeksen til hvor 3 er
+flere som matche finne den første
+
+liste.insert(3,7)
+3 --> indeks
+7 --> ny verdi
+forskyve den blir ikke fjernet
+
+
+liste.remove(3)
+fjerne bare første element
+
+del liste2[1]
+fjerne med indeks istedet
+
+sortere liste
+liste.sort()
+
+liste.reverse()
+reverse listen
+
+liste = list() --> mer anbefalt
+liste = []
+lage liste
+
+max(liste)
+min(liste)
+
+for indeks, verdi in enumerate(liste)
+    print(f"Indeks {indeks} inneholder verdien {verdi}")
+
+første rekkefølge andre verdien
